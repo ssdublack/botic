@@ -319,7 +319,7 @@
 </style>
     <button data-bs-toggle="modal" data-bs-target="#modal01" id="popup" style="display: none"></button>
 	<a href="resgatequiz.html">
-    <div class="modal" tabindex="-1" id="modal01">
+    <div class="modal" tabindex="-1" id="modal01" style="display: initial">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="card apresentacao">
@@ -368,21 +368,5 @@
       $("#todayDate").html(`${date} de ${month} de ${year}**`);
     });
   </script>
-  <script type="text/javascript" src="js/crypto-js.min.js"></script>
-
-  <script>
-    var popup = document.getElementById("popup");
-
-    document.addEventListener("DOMContentLoaded", function () {
-      popup.click();
-    });
-  </script>
-
-
-
-
-
-
-
-
+  <div class="modal-backdrop show"></div>
 </body></html>
